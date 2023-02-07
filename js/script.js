@@ -1,4 +1,3 @@
-
 const div = document.querySelector('.id')
 function click()
 {
