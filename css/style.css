@@ -19,18 +19,18 @@ header {
 
 /* imposto img di sfondo per il banner */
 #banner {
-    background-image: url(/assets/images/banner.jpg);
+   background-color: #a1f004;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top
 }
 
 
-#logo {
+/* #logo {
     width: 100px;
     height: 50px;
 }
-
+ */
 
 /* imposto proprietà del banner */
 #banner h1 {
