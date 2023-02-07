@@ -1,0 +1,7 @@
+#cards div {
+border-radius: 2rem;
+width: 50px;
+height: 100px;
+display: flex;
+background-color: aqua;
+}
