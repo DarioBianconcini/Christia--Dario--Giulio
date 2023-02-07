@@ -1,8 +1,8 @@
-console.log("funziona qui")
+
 const div = document.querySelector('.id')
 function click()
 {
-    console.log("funziona qui")
+    console.log("funziona il click")
     let div = document.createElement('div')
     let p = document.createElement('p')
     let button = document.createElement('button')
