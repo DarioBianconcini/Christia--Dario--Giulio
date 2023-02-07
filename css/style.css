@@ -1,7 +1,198 @@
-#cards div {
-border-radius: 2rem;
-width: 50px;
-height: 100px;
-display: flex;
-background-color: aqua;
+/* imposto il BackGround e il padding per l'header */
+header {
+
+    background: linear-gradient(354deg, rgba(2, 0, 36, 1) 0%, rgba(3, 3, 31, 0.6615896358543417) 35%, rgba(0, 212, 255, 1) 100%);
+    position: fixed;
+    /*  top: 0;
+    left: 0;*/
+    width: 100%;
+}
+
+/* imposto proprietà dei pulsanti ai link */
+.pulsanti {
+    text-align: right;
+    top: 0 30px;
+    padding: 30px;
+    text-decoration: none;
+    color: #a1f004;
+}
+
+/* imposto img di sfondo per il banner */
+#banner {
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top
+}
+
+
+#logo {
+    width: 100px;
+    height: 50px;
+}
+
+
+/* imposto proprietà del banner */
+#banner h1 {
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+/* imposto proprietà del paragrafo */
+#banner p {
+    margin-bottom: 1.75em;
+}
+
+/* imposto padding per le sezioni */
+section {
+    padding: 3em 1.3em 2em;
+    text-align: center;
+}
+
+/* imposto proprietà per il bottone del banner */
+#banner .pulsante {
+    font-size: .9rem;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(354deg, rgba(2, 0, 36, 1) 0%, rgba(3, 3, 31, 0.6615896358543417) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 0.8em 2.2em;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* impostazioni del testo: font, colore */
+h1,
+h2 {
+    color: rgb(3, 15, 19);
+    /*  border-color: white;
+    border-style: double;
+    border-width: 1;*/
+    font-family: "Montserrat", sans-serif;
+    line-height: 1;
+    margin: 0 0 1.5em 0;
+
+}
+
+#banner p {
+    color: rgba(48, 16, 163, 0.666);
+}
+
+#chisiamo div {
+    margin: 5%;
+}
+
+.info {
+    justify-content: center;
+    display: flex;
+}
+
+#citazione {
+    background-color: #e3620b;
+    color: white;
+}
+
+#citazione h2 {
+    color: white;
+    font-size: 1, 5rem;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 0.85em;
+    margin: 1.7em;
+}
+
+figcaption {
+    font-size: 0.7em;
+}
+
+cite {
+    font-size: 1.5em;
+}
+
+.cards {
+    padding: 3em 1.3em 2em;
+}
+
+.card {
+
+    border: solid 1px #111112;
+    box-shadow: 10px 10px 10px rgb(136, 125, 125);
+    margin-bottom: 2em;
+    padding-bottom: 1.5em;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+.foto {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 1.5em;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.604);
+    text-align: center;
+    padding: 40px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+a.link {
+    text-decoration: none;
+    color: rgb(0, 255, 21);
+}
+
+.contatti {
+    text-decoration: none;
+    color: red;
+}
+
+/* mediaquery: serve per personalizzare il contenuto del css in base alla risoluzione dello schermo*/
+@media screen and (min-width: 898px) {
+
+    #logo {
+
+        max-width: 150px;
+
+    }
+
+    body {
+
+        min-width: 150px;
+    }
+
+
+
+    .card {
+        margin: 20px;
+
+    }
+
+    .card img {
+        height: 300px;
+    }
+
+    #cards {
+
+        display: flex;
+    }
+
+    a.link {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .info {
+        display: block;
+    }
 }
