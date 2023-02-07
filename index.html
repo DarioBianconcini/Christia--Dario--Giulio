@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Corso Web Delevoper - Java</title>
+    <!-- imposto la descrizione del sito per i motori di ricerca -->
+    <meta name="description" content="corso Java 2023">
+    <!-- La rel link preconnect permette al browser di stabilire una connessione dalla fonte di font prima di caricare la pagina -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Importa le font Montserrat e Open Sans dalla libreria Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <!-- importo i file css all.css, reset.css, stile.css-->
+    <link rel="stylesheet" href="/assets/css/all.css"> <!-- implementazione dello stile css -->
+    <!-- reetta i comportamenti naturali di una pagina: spaziature, margini, ecc -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <!-- file utilizzato per creare le nostre personalizzzazioni -->
+    <link rel="stylesheet" href="/assets/css/stile.css">
 </head>
+
 <body>
-    
+    <header>
+        <!-- inserire un immagine con id logo e attributi -->
+        <img src="/assets/images/logo.png" id="logo" alt="logo Java">
+        <div class="pulsanti">
+            <a class="link" href="youtube.com">YouTube</a>
+            <a class="link" href="facebook.com">Facebook</a>
+            <a class="link" href="google.com">Google</a>
+        </div>
+    </header>
+    <main>
+        <!-- section del BANNER -->
+        <section id="banner">
+            <h1>Corso Web Delevoper</h1>
+            <p>il miglior corso di Java Delevoper dove trattiamo diversi argomenti utili</p>
+            <a href="" class="pulsante">Provalo ora!!</a>
+        </section>
+
+        <!-- section del "CHI SIAMO" -->
+        <section id="chisiamo">
+            <div id="titolochisiamo">
+                <h1>info utili</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="info">
+                <div>
+                    <h2>Contenitore1</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, alias.</p>
+                </div>
+                <div>
+                    <h2>Contenitore2</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, alias.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="citazione"> <!-- citazione -->
+            <h2>La Programmazione</h2>
+            <figure>
+                <!-- inserisco una citazione con blockquote -->
+                <blockquote>
+                    Lorem ipsum dolor sit amet.
+                </blockquote>
+                <figcaption>
+                    <cite>
+                        Mario Rossi
+                    </cite><br>CEO
+                </figcaption>
+            </figure>
+        </section>
+
+        <section id="cards"> <!-- section di tutte le card -->
+
+            <div class="card"> <!-- apertura div della foto1 -->
+                <img class="foto" src="/assets/images/foto1.jpg" alt=""> <!-- classe foto1 -->
+                <div class="testo">
+                    <h1>foto1</h1> <!-- titolo foto1 -->
+                    <p>Lorem ipsum dolor sit amet consectetur.</p> <!-- sottotitolo della foto1 -->
+                </div>
+            </div> <!-- chiusura div foto1 -->
+            <div class="card"> <!-- apertura div della foto2 -->
+                <img class="foto" src="/assets/images/foto2.jpg" alt=""> <!-- classe foto1 -->
+                <div class="testo">
+                    <h1>foto2</h1> <!-- titolo foto2 -->
+                    <p>Lorem ipsum dolor sit amet consectetur.</p> <!-- sottotitolo della foto2 -->
+                </div>
+
+            </div> <!-- chiusura div foto2 -->
+            <div class="card"> <!-- apertura div della foto3 -->
+                <img class="foto" src="/assets/images/foto3.jpg" alt=""> <!-- classe foto3 -->
+                <div class="testo">
+                    <h1>foto3</h1> <!-- titolo foto3 -->
+                    <p>Lorem ipsum dolor sit amet consectetur.</p> <!-- sottotitolo della foto3 -->
+                </div>
+            </div> <!-- chiusura div foto3 -->
+
+
+        </section>
+        <footer> <!-- creazione del footer -->
+            <p>copywright by Dario</p>
+            <br>
+            <a class="contatti" href="tel:+123456789">chiamami!</a>
+            <a class="contatti" href="mailto: abc@gmail.com">scrivimi!</a>
+        </footer> <!-- chiusura del footer -->
+    </main>
+
+
 </body>
+
 </html>
