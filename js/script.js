@@ -1,16 +1,20 @@
+console.log("funziona qui")
+const div = document.querySelector('.id')
 function click()
 {
+    console.log("funziona qui")
+    let div = document.createElement('div')
+    let p = document.createElement('p')
     let button = document.createElement('button')
-    let img = document.createElement('img')
-    button.textContent = "elimina"
-    img.src ="https://upload.wikimedia.org/wikipedia/it/thumb/2/2e/Java_Logo.svg/1200px-Java_Logo.svg.png"
+    button.textContent = "chiudi"
+    p.textContent ="Il nuovo film più visto è..."
 
     button.onclick = function(){
-        body.removeChild(img)
+        body.removeChild(p);
     }
 } 
 
-div.appendChild(img);
+div.appendChild(p);
 div.appendChild(button)
 body.appendChild(div)
 
